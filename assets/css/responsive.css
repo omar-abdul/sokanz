@@ -4,13 +4,19 @@
 		display: block;
     float: none;
 	}
+
   #about .row .col-30{
     padding: 10px;
-  } 
+  }
+
 	footer .col-60, footer .col-30 {
 		padding:5px;
 		text-align: center;
 	}
+  .row .col-50 .side-banner,.row .col-50 {
+    height: 50%;
+
+  } 
 }
 @media and screen (max-width:1029px){
   #about .col-30 img{

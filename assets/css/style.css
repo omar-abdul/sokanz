@@ -32,12 +32,22 @@ body ,html{
 	margin: 0;
 	background-color: #f7f7f7;
 }
+body ,html,.container{
+    height: 100%;
+}
 .container {
 	width: 90%;
 	margin: 0 auto 0 auto;
 	overflow: hidden;
-}
+	box-sizing: border-box;
 
+}
+.container-fluid {
+	width: 100%;
+	margin: 0 auto 0 auto;
+
+	box-sizing: border-box;	
+}
 a {
 	text-decoration: none;
 	color: transparent;
@@ -74,6 +84,7 @@ a {
 	vertical-align: middle;
 	margin:auto;
 	width: 100%;
+
 }
 .col-25 {
 	float:left;
@@ -84,6 +95,7 @@ a {
 	float: left;
 	width: 50%;
 	display: block;
+
 }
 
 .col-30{
@@ -472,4 +484,23 @@ form .form-group  select {
 	border-radius: 5px;
 	border: 1px solid #79ea92;
 	font-size: 15px;
+}
+
+.side-banner {
+	height: 450px;
+	background-color: #6da0f2;
+	color: #fff;
+	overflow: hidden;
+	margin-top:10px;
+	margin-bottom: 20px;
+	width: 70%;
+	margin-left:auto;
+	margin-right: auto;
+
+
+}
+
+.side-banner h3 {
+	margin:auto;
+
 }
