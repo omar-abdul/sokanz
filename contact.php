@@ -40,9 +40,9 @@
 				$to = 'ilbuuromar@gmail.com';
 				$subject = 'Quote request';
 				$message = 'Company : <h1>'.$data['name'].'</h1> \n'
-				.'Service <h2>'.$data['service'].'</h2>'
-				.'Sector <h2>'.$data['sector'].'</h2>'
-				.'Addtional Remarks <p>'.$data['remark'].'</p>';
+				.'Service : <h2>'.$data['service'].'</h2>'
+				.'Sector : <h2>'.$data['sector'].'</h2>'
+				.'Addtional Remarks : <p>'.$data['remark'].'</p>';
 
 				$headers = 'From: '.$data['name'].'<'.$data['email'].'>';
 
