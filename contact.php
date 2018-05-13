@@ -160,7 +160,7 @@
 			</section>
 		</div>
 		<div class="col-50">
-			<div class="side-banner">
+			<div class="sidebanner">
 				<h3></h3>
 			</div>
 		</div>
