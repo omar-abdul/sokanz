@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Sokanz : Get started</title>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width initial-scale=1">
+	<meta name="description" content="Web and mobile solutions">
+	<meta name="keywords" content="web design, web development, mobile first ,software installation ">
+	<meta name="author" content="Omar AbdulRazak , www.omar-abdul.github.io">
+	<title>Sokanz</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+	 <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+	 <link rel="stylesheet" type="text/css" href="./assets/css/responsive.css">
+</head>
+<body>
+	<header>
+		<div class="header-container contact">
+			<div class="brand text-center">
+				<a href="index.html">
+				<h1 ><span>So</span>Kanz</h1>
+				</a>
+			</div>
+		</div>
+	</header>
+	<div class="row">
+		<div class="col-50">
+			<section class="main-content">
+				<div class="container">
+					<div class="success">
+						<p>Thank you for your submission, we will get back to you as soon as possible with your quote or further inquires</p>
+					</div>
+					<form action="https://formspree.io/ilbuuromar@gmail.com " method="POST">
+						<div class="form-group">
+							<label for="companyName">Company or Organization Name</label>
+							<input type="text" id="companyName" name="company-name" required>
+
+						</div>
+
+						<div class="form-group">
+							<label for="sectorInput">Sector</label>
+							<select id="sectorInput" name="sector" >
+								<option value="" hidden selected>'Choose a sector'</option>
+								<option value="education"> Education</option>
+								<option value="ngo"> Non-Government Organization</option>
+								<option value="media"> Media and Entertainment</option>
+								<option value="food">Catering</option>
+								<option value="tech">Technology</option>
+								<option value="other">Other</option>
+							</select>	
+						</div>
+
+						<div class="form-group">
+							<label for="serviceInput">Service</label>
+							<select id="serviceInput" name="service"  >
+								<option value="">'Choose a service'</option>
+								<option value="education">Static landing webpage</option>
+								<option value="blog"> Blog</option>
+								<option value="media">Customized web application</option>
+								<option value="food">Mobile or Hybrid application</option>
+								<option value="tech">Quickbook installation</option>
+							</select>						
+							
+						</div>
+						<div class="form-group">
+							<label for="emailInput">Email</label>
+							<input type="text" id="emailInput" name="_replyto"  > 
+						</div>	
+						<div class="form-group">
+							<label for="remark">Additional Remarks  <span class="optional"> optional</span></label>
+							<textarea id="remark" name="remark"></textarea>
+
+						</div>
+						<div>
+						<input type="hidden" name="_subject" value="Quote request">	
+						<input type="text" name="_gotcha" style="display:none" />	
+						<input type="hidden" name="_next" value="https://omar-abdul.github.io/contacts.html" />	
+						</div>	
+						<button type="submit" class="button"> Send </button>							
+					</form>
+				</div>
+			</section>
+		</div>
+		<div class="col-50">
+			<div class="sidebanner">
+				<h3></h3>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
