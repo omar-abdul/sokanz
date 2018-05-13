@@ -14,6 +14,13 @@
 	src:url("../fonts/AnticDidone-Regular.otf");
 }
 
+button , textarea, select, input {
+	font-family:  Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	line-height: 2px;
+
+}
+
 
 body ,html{
 	height:100%;
@@ -70,6 +77,11 @@ a {
 	width: 25%;
 	display: block;
 }
+.col-50 {
+	float: left;
+	width: 50%;
+	display: block;
+}
 
 .col-30{
 	float: left;
@@ -91,10 +103,11 @@ a {
 	display: table;
 
 }
-
-.header-container .brand {
-	float:left;
+.left {
+	float: left;
 }
+
+
 .brand {
 	margin-top:10px;
 	margin-left: 40px; 
@@ -187,15 +200,19 @@ section {
 }
 
 #about .col-30 img{
-	border-radius: 50%;
-	object-fit: contain;
+
+	height: auto;
+}
+#about .col-30 {
+	padding: 70px 10px;
 }
 #services .col-30{
 	text-align:center;
 	padding-top: 15px;
 }
 #portfolio .col-25>img {
-	object-fit: cover;
+	object-fit: contain;
+	max-width: 300px;
 	height: auto;
 	border-radius: 5px;
 	cursor: pointer;
@@ -276,13 +293,37 @@ section {
     text-decoration: none;
     cursor: pointer;
 }
+
+#banner {
+	background-color: #f72d1b;
+	color: #fff;
+	font-size: 2em;
+	overflow:hidden;
+}
+#banner div {
+	margin: auto;
+	text-align: center;
+}
+a.button {
+	padding:13px;
+	background-color: #f7d61b;
+	color: #f7f7f7;
+	border-radius:4px;
+	margin:auto;
+	font-size: 24px;
+	cursor:pointer;
+}
+a.button:hover{
+	background-color: #edcc12;
+}
 footer {
-	height: 300px;
+	max-height:100%;
 	background-color:#151516;
 	border-top: solid #d8d850;
 	color: #f9f9f9;
 
 }
+
 footer .col-60{
 	width: 68%;
 	float: left;
@@ -295,9 +336,41 @@ footer .col-30,.col-60 {
 
 
 footer a {
-	color:#000;
-	margin-left:20px;
+	color:#fff;
 	
+}
+label {
+	margin: 0;
+	font-size: 15px;
+	display: block;
+}
+input {
+	padding: 10px;
+	border-radius: 4px;
+
+
+}
+input[type=submit]{
+	background-color:#f7d61b;
+	color:#fff; 
+	box-shadow: 0.7px 0.7px 0.7px #fff;
+	background-image: linear-gradient(to bottom, #f7d61b, #edcc12);
+
+	border:none;
+	outline: none;
+	cursor: pointer;
+	text-decoration: none;
+}
+input[type=submit]:active {
+    margin-left: 1px 1px 0;
+    box-shadow: -1px -1px 1px #fff;
+    outline: 1px solid black;
+    -moz-outline-radius: 5px;
+    background-image: linear-gradient(to top, #f7d61b, #edcc12);
+	/*outline: 1px solid #fff;*/
+}
+.forminput {
+	margin-top:-10px;	
 }
 .text-center {
 	text-align: center !important;
@@ -318,4 +391,82 @@ footer a {
 	
 
 	position: fixed;
+}
+
+
+/* forms */
+
+form .form-group {
+	max-height: 100%;
+	padding: 10px;
+}
+
+form .form-group label {
+	display: block;
+	padding: 2px;
+	font-size: 15px;
+	font-weight:bolder;
+
+}
+form .form-group input ,form .form-group select, form .form-group textarea {
+	width: 100%;
+	padding: 10px;
+	border-radius:4px;
+	border-style: ridge; 
+
+}
+
+form .form-group textarea {
+	height: 100px;
+	resize: none;
+	overflow: auto;
+}
+
+form .form-group  select {
+	line-height: 12px;
+	white-space: 10px;
+}
+.optional {
+
+	font-style: italic;
+	color: #aeaeae;
+}
+.invalid {
+	font-size: 13px;
+	color: red;
+}
+
+
+
+.button {
+	background-color:#f7d61b;
+	color:#fff; 
+	box-shadow: 0.7px 0.7px 0.7px #000;
+	background-image: linear-gradient(to bottom, #f7d61b, #edcc12);
+
+	border:none;
+	outline: none;
+	cursor: pointer;
+	text-decoration: none; 
+	width: 100%;
+	height: 50px;
+	border-radius: 3px;
+}
+.button:active {
+    margin-left: 1px 1px 0;
+    box-shadow: -1px -1px 1px #fff;
+    outline: 1px solid black;
+    -moz-outline-radius: 5px;
+    background-image: linear-gradient(to top, #f7d61b, #edcc12);
+
+}
+
+.success {
+	background-color: #72ea8c;
+	color: #174221;
+	font-weight: bold;
+	padding:10px;
+	border-radius: 5px;
+	border: 1px solid #79ea92;
+	font-size: 15px;
 }
