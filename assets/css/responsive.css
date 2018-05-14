@@ -3,18 +3,18 @@
 		width: 100%;
 		display: block;
     float: none;
-	}
-<<<<<<< HEAD
+}
+
   #about .row .col-30{
     padding: 10px;
   } 
-=======
+
 
   #about .row .col-30{
     padding: 10px;
   }
 
->>>>>>> f904214058d16dc051b06ab4d15cab79657a1def
+
 	footer .col-60, footer .col-30 {
 		padding:5px;
 		text-align: center;
