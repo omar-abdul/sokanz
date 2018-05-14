@@ -326,8 +326,21 @@ section {
 }
 a.button {
 	padding:13px;
+<<<<<<< HEAD
 }
 
+=======
+	background-color: #f7d61b;
+	color: #f7f7f7;
+	border-radius:4px;
+	margin:auto;
+	font-size: 24px;
+	cursor:pointer;
+}
+a.button:hover{
+	background-color: #edcc12;
+}
+>>>>>>> f904214058d16dc051b06ab4d15cab79657a1def
 footer {
 	max-height:100%;
 	background-color:#151516;
@@ -362,12 +375,34 @@ input {
 
 
 }
+<<<<<<< HEAD
 #subscribeForm .button{
 	padding: 3px;
 	margin: 2px;
 	max-width:100px;
 }
 
+=======
+input[type=submit]{
+	background-color:#f7d61b;
+	color:#fff; 
+	box-shadow: 0.7px 0.7px 0.7px #fff;
+	background-image: linear-gradient(to bottom, #f7d61b, #edcc12);
+
+	border:none;
+	outline: none;
+	cursor: pointer;
+	text-decoration: none;
+}
+input[type=submit]:active {
+    margin-left: 1px 1px 0;
+    box-shadow: -1px -1px 1px #fff;
+    outline: 1px solid black;
+    -moz-outline-radius: 5px;
+    background-image: linear-gradient(to top, #f7d61b, #edcc12);
+	/*outline: 1px solid #fff;*/
+}
+>>>>>>> f904214058d16dc051b06ab4d15cab79657a1def
 .forminput {
 	margin-top:-10px;	
 }
@@ -438,18 +473,28 @@ form .form-group  select {
 
 
 .button {
+<<<<<<< HEAD
 	
 	color:#fff; 
 	box-shadow: 0.7px 0.7px 0.7px #fff;
 	background-image: linear-gradient(to bottom, #f7d61b, #edcc12);
 	border:none;
 	box-sizing: border-box;
+=======
+	background-color:#f7d61b;
+	color:#fff; 
+	box-shadow: 0.7px 0.7px 0.7px #000;
+	background-image: linear-gradient(to bottom, #f7d61b, #edcc12);
+
+	border:none;
+>>>>>>> f904214058d16dc051b06ab4d15cab79657a1def
 	outline: none;
 	cursor: pointer;
 	text-decoration: none; 
 	width: 100%;
 	height: 50px;
 	border-radius: 3px;
+<<<<<<< HEAD
 	font-weight: bolder;
 }
 
@@ -459,11 +504,31 @@ form .form-group  select {
     outline: 1px solid #000;
     -moz-outline-radius: 5px;
     border-radius: 5px;
+=======
+}
+.button:active {
+    margin-left: 1px 1px 0;
+    box-shadow: -1px -1px 1px #fff;
+    outline: 1px solid black;
+    -moz-outline-radius: 5px;
+>>>>>>> f904214058d16dc051b06ab4d15cab79657a1def
     background-image: linear-gradient(to top, #f7d61b, #edcc12);
 
 }
 
+<<<<<<< HEAD
 
+=======
+.success {
+	background-color: #72ea8c;
+	color: #174221;
+	font-weight: bold;
+	padding:10px;
+	border-radius: 5px;
+	border: 1px solid #79ea92;
+	font-size: 15px;
+}
+>>>>>>> f904214058d16dc051b06ab4d15cab79657a1def
 
 .side-banner {
 	height: 450px;
@@ -482,6 +547,7 @@ form .form-group  select {
 .side-banner h3 {
 	margin:auto;
 
+<<<<<<< HEAD
 }
 
 
@@ -504,3 +570,6 @@ form .form-group  select {
 	border: 1px solid #701a0c;
 	font-size: 15px;
 }
+=======
+}
+>>>>>>> f904214058d16dc051b06ab4d15cab79657a1def

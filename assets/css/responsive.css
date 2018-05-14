@@ -1,16 +1,35 @@
 @media screen and (max-width:750px ){
-	.row .col-60, .row .col-30, .row .col-25{
+	.row .col-60, .row .col-30, .row .col-25, .row .col-50{
 		width: 100%;
 		display: block;
     float: none;
 	}
+<<<<<<< HEAD
   #about .row .col-30{
     padding: 10px;
   } 
+=======
+
+  #about .row .col-30{
+    padding: 10px;
+  }
+
+>>>>>>> f904214058d16dc051b06ab4d15cab79657a1def
 	footer .col-60, footer .col-30 {
 		padding:5px;
 		text-align: center;
 	}
+  .row .col-50 .side-banner,.row .col-50 {
+    height: 50%;
+
+  } 
+}
+@media and screen (max-width:1029px){
+  #about .col-30 img{
+    width: 30%;
+
+  }
+
 }
 @media and screen (max-width:1029px){
   #about .col-30 img{
