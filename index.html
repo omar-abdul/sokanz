@@ -17,13 +17,13 @@
 </head>
 <body>
 	<header id="header">
-		<div class="header-container">
+		<div class="header-container" id="home">
 			
 		
 		<div class="left brand">
-			<a href="#">
-				<h1><span>So</span>Kanz</h1>
-			</a>
+			
+				<h1><a href="#home"><span>So</span>Kanz</a></h1>
+			
 		</div>
 
 		<nav id="navbar" class="nav" role="navigation">
@@ -57,6 +57,7 @@
 			<div class="col-60 center">
 				
 				<p>Sokanz is software development company that is dedicated to help boost your business's productivity and profit. Our team of developers and consultants are here to make your life easy so you can focus on your service or product</p>
+				<a class="button" id="contactAnchor"   href="#contact">Get started</a>
 			</div>
 			<div class="col-30 ">
 				<img src="./assets/imgs/logo.png" width="300" height="200" >					
@@ -77,7 +78,7 @@
 			</div>
 			<div class="col-30">
 				<i class="fas fa-search fa-5x"></i>
-				<h3>SEO</h3>
+				<h3>SEO </h3>
 			</div>
 			<div class="col-30">
 				<i class="fas fa-code fa-5x"></i>
@@ -96,8 +97,7 @@
 		<div class="row">
 			<div class="col-25">
 				<img src="./assets/imgs/ibar.JPG" width="300" height="200"
-				alt="Ibar is an online web application that connects students to teachers in their city. The application backend was built on top of Express framework">
-				<a href="http://ibar.so">Go to site</a>
+				alt="Ibar is an online web application that connects students to teachers in their city. The application backend was built on top of Express framework  <a class='visit' target='_blank'  href='http://ibar.so'>  Visit website</a>">
 			</div>
 			<div class="col-25">
 				<img src="./assets/imgs/talon.JPG" width="300" height="200"
@@ -105,7 +105,8 @@
 			</div>
 			<div class="col-25">
 				<img src="./assets/imgs/codeon.JPG" width="300" height="200"
-				alt="Codeon is a HTML5 game that aims to teach programming concepts in a fun way. ">
+				alt="Codeon is a HTML5 game that aims to teach programming concepts in a fun way. 
+				<a class='visit' target='_blank' href='https://omar-abdul.github.io/codeon'>Visit website</a>">
 			</div>
 			<div class="col-25">
 				<img src="./assets/imgs/bluebrightJPG.JPG" width="300" height="200"
@@ -125,6 +126,57 @@
 	  <div id="caption"></div>
 	</div>	
 	</section>
+	<section id="contact">
+		<div class="container">
+			<h3 class="text-center">Get a quote </h3>
+			<div id="msg"  class="" style="display:hidden"></div>
+			<form id="quoteForm" action="https://formcarry.com/s/BkYf1ELRf" method="POST" accept-charset="UTF-8" >
+			<form id="quoteForm" action>
+				<div class="form-group">
+					<label for="companyName">Company or Organization Name</label>
+					<input type="text" id = "companyName" name="name" required>
+				</div>
+			<div class="form-group">
+				<label for="sectorId">Sector</label>
+				<select id="sectorId" name="sector" required>
+					<option value="" hidden selected> Choose a sector</option>
+					<option value="education"> Education</option>
+					<option value="ngo"> Non-Government Organization</option>
+					<option value="media"> Media and Entertainment</option>
+					<option value="food">Catering</option>
+					<option value="tech">Technology</option>
+					<option value="other">Other</option>
+				</select>
+				
+			</div>		
+			<div class="form-group">
+				<label for="serviceId">Service</label>
+				<select id="serviceId" name="service" required>
+					<option value="" hidden selected >Service you want</option>
+					<option value="education">Static landing webpage</option>
+					<option value="blog "> Blog</option>
+					<option value="media">Customized web application</option>
+					<option value="food">Mobile or Hybrid application</option>
+					<option value="tech">Quickbook installation</option>
+					
+				</select>
+				
+			</div>
+				<div class="form-group">
+					<label for="emailInput">Email</label>
+					<input type="email" id = "emailInput" name="email" required>
+				</div>	
+				<div class="form-group">
+					<label for="textareaInput">Additional Remarks <span class="optional">Optional</span></label>
+					<textarea id="textareaInput" name="remark"></textarea>
+				</div>	
+
+				<button type="submit" class="button">Send</button>						
+
+			</form>
+		</div>
+		
+	</section>
 	
 	<footer>
 		<div class="container">
@@ -132,8 +184,7 @@
 			<div class="col-60 contact-info">
 				<h3>Get in touch</h3>
 				<p>info@sokanz.com</p>
-			</div>				
-			<div class="col-30 text-center">
+
 				<h3>Follow us</h3>
 			<a href="#">
 				<i class="fab fa-facebook fa-3x"></i>
@@ -143,7 +194,21 @@
 			</a>
 			<a href="#">
 				<i class="fab fa-linkedin fa-3x"></i>
-			</a>			
+			</a>				
+			</div>				
+			<div class="col-30 clearfix">
+				<h3>Get the latest news about our offers </h3>
+				<form id="subscribeForm" action="https://formcarry.com/s/BkYf1ELRf" method="POST" accept-charset="UTF-8" >
+					
+					<label for="emailInput">Email</label>
+					<div class="forminput">
+					<input  id="emailInput" type="email" name="email" required>
+					</div>
+					<button class="button" type="submit" >Subscribe</button>
+					
+
+				</form>
+			
 			</div>	
 				
 		</div>
