@@ -51,7 +51,7 @@ a {
 	background-position: center;
 	background-size: cover;
 	background-attachment: fixed;
-	min-height: 90%;
+	min-height: 100vh;
 	color:#f8f8f8;
 	overflow: hidden;
 
