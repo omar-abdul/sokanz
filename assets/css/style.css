@@ -273,6 +273,11 @@ section {
     height: 150px;
 }
 
+#caption a {
+	color:#ccc;
+	text-decoration: underline;
+}
+
 /* Add Animation - Zoom in the Modal */
 .modal-content, #caption { 
     animation-name: zoom;
