@@ -1,18 +1,15 @@
 @media screen and (max-width:750px ){
-	.row .col-60, .row .col-30, .row .col-25, .row .col-50{
+	.col-60,  .col-30,  .col-25,  .col-50{
 		width: 100%;
 		display: block;
     float: none;
+    overflow:hidden;
 }
 
-  #about .row .col-30{
+  #about .col-30{
     padding: 10px;
+    margin-right: 10px; 
   } 
-
-
-  #about .row .col-30{
-    padding: 10px;
-  }
 
 
 	footer .col-60, footer .col-30 {
