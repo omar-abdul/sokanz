@@ -1,13 +1,16 @@
 @media screen and (max-width:750px ){
-	.col-60,  .col-30,  .col-25,  .col-50{
+	.row .col-60, .row .col-30, .row .col-25, .row .col-50{
 		width: 100%;
 		display: block;
     float: none;
-    overflow:hidden;
+
 }
 
 .brand {
   margin-left: -40px;
+}
+a.button {
+  font-size: 15px;
 }
 
 .sticky-nav .brand{
