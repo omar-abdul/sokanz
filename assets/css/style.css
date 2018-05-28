@@ -118,8 +118,7 @@ a {
 
 .brand {
 	margin-top:5px;
-	position: relative;
-	z-index: 9;
+
 	margin-left: 40px; 
 }
 .brand h1>a{
@@ -175,8 +174,6 @@ a {
   	padding: 70px 10px;
   	width: 50%;
   	word-wrap: break-word;
-    position: relative;
-    z-index: -1;
 
   }
 
