@@ -118,6 +118,8 @@ a {
 
 .brand {
 	margin-top:5px;
+	position: relative;
+	z-index: 9;
 	margin-left: 40px; 
 }
 .brand h1>a{
@@ -173,6 +175,8 @@ a {
   	padding: 70px 10px;
   	width: 50%;
   	word-wrap: break-word;
+    position: relative;
+    z-index: -1;
 
   }
 
@@ -389,13 +393,13 @@ input {
 
 .sticky-nav .brand{
 	margin-top: 5px;
-	z-index: 99;
+	z-index: 999;
 }
 
 
 #header.sticky-nav .header-container {
 	background-color: rgba(0,0,0,0.6);
-	z-index: 999;
+	z-index: 9999;
 	border-bottom: solid rgb(216, 216, 80,0.6);
 	
 
