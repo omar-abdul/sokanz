@@ -7,13 +7,29 @@
 }
 
 .brand {
-  margin-left: 0px;
+  margin-left: -40px;
+}
+
+.sticky-nav .brand{
+    margin-left: 0px;
 }
 
   #about .col-30{
     padding: 10px;
     margin-right: 10px; 
   } 
+
+#portfolio .col-25>img {
+
+  max-width: 100px;
+
+}
+
+#about .col-30>img {
+
+  margin-left: -60px;
+
+}
 
 
 	footer .col-60, footer .col-30 {
