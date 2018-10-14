@@ -1,4 +1,7 @@
 var header = document.getElementById('header');
+$.getJSON('https://ipapi.co/json/', function(data) {
+  console.log(JSON.stringify(data, null, 2));
+});
 window.onscroll = function(){
 
 	if(window.pageYOffset > 0 ){
