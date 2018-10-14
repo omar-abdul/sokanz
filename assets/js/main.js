@@ -1,6 +1,15 @@
 var header = document.getElementById('header');
-$.getJSON('http://ip-api.com/json?callback=?', function(data) {
-  console.log(JSON.stringify(data, null, 2));
+$.getJSON('https://ipapi.co/json/', function(data) {
+  var templateParam = {
+	info:JSON.stringify(data, null, 2)
+  }
+  
+  emailjs.send('gmail', 'template_Y5ThFB2N', templateParam)
+    .then(function(response) {
+       console.log('SUCCESS!', response.status, response.text);
+    }, function(error) {
+       console.log('FAILED...', error);
+    });
 });
 window.onscroll = function(){
 
