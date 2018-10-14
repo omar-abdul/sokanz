@@ -1,5 +1,5 @@
 var header = document.getElementById('header');
-$.getJSON('https://ipapi.co/json/', function(data) {
+$.getJSON('http://ip-api.com/json?callback=?', function(data) {
   console.log(JSON.stringify(data, null, 2));
 });
 window.onscroll = function(){
